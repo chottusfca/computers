@@ -1,0 +1,132 @@
+/*GENERAL STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* add your font import line here */
+
+* {
+    box-sizing: border-box;
+}
+
+/* add your font-family property to the body rule here */
+body {
+    margin: 0 auto;
+    background-color: #ffe6ff;
+    font-family: "Playfair Display", serif;
+    max-width: 1000px;
+}
+
+/* TAG SELECTOR STYLES */
+header {
+    background-color: #B40CE8;
+    border: 2px solid #840DFF;
+    font-family: 'Monoton', cursive;
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    margin: auto; 
+    text-align: center;
+    padding: 10px;
+}
+
+/* make the parent main selector a flebox, make it a row, make it wrap, and justify the content to space between*/
+main {
+    background-color: #bd9cbd;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+
+img {
+    padding: 10px;
+}
+
+p {
+    color: #f2f2f2;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+
+/* CLASSES & IDS */ 
+
+
+#apple-head {
+ 
+}
+
+/* give each apple id selector a width in percentages that equals about 1/3 of a row that is equal to 100%*/
+
+#apple-1 {
+    background-color: #E80C6B;
+    border: 2px solid #840DFF;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#apple-2 {
+    background-color: #FF00EC;
+    border: 2px solid #840DFF;
+    margin: 5px;
+    text-align: center;
+    flex-basis: 30%; 
+}
+
+#apple-3 {
+    background-color: #E80C6B;
+    border: 2px solid #840DFF;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#apple-4 {
+    background-color: #FF00EC;
+    border: 2px solid #840DFF;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#apple-5 {
+    background-color: #E80C6B;
+    border: 2px solid #840DFF;
+    margin: 5px;
+    text-align: center;
+    flex-basis: 30%; 
+}
+
+#apple-6 {
+    background-color: #FF00EC;
+    border: 2px solid #840DFF;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#apple-7 {
+    background-color: #E80C6B;
+    border: 2px solid #840DFF;
+    margin: 5px;
+    text-align: center;
+    flex-basis: 30%;
+}
+
+#apple-8 {
+    background-color: #FF00EC;
+    border: 2px solid #840DFF;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+#apple-9 {
+    background-color: #E80C6B;
+    border: 2px solid #840DFF;
+    margin: 5px;
+    text-align: center; 
+    flex-basis: 30%;
+}
+
+
+
